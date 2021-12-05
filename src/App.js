@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       
       <Navbar/>
-sssssssssssssssss
+
       <Header/>
 
       <Cards/>
