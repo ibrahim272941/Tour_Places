@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tour_places/static/css/main.7d759902.chunk.css",
+    "main.js": "/tour_places/static/js/main.f0a371ee.chunk.js",
+    "main.js.map": "/tour_places/static/js/main.f0a371ee.chunk.js.map",
+    "runtime-main.js": "/tour_places/static/js/runtime-main.ed578be5.js",
+    "runtime-main.js.map": "/tour_places/static/js/runtime-main.ed578be5.js.map",
+    "static/js/2.dcbee880.chunk.js": "/tour_places/static/js/2.dcbee880.chunk.js",
+    "static/js/2.dcbee880.chunk.js.map": "/tour_places/static/js/2.dcbee880.chunk.js.map",
+    "index.html": "/tour_places/index.html",
+    "static/css/main.7d759902.chunk.css.map": "/tour_places/static/css/main.7d759902.chunk.css.map",
+    "static/js/2.dcbee880.chunk.js.LICENSE.txt": "/tour_places/static/js/2.dcbee880.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed578be5.js",
+    "static/js/2.dcbee880.chunk.js",
+    "static/css/main.7d759902.chunk.css",
+    "static/js/main.f0a371ee.chunk.js"
+  ]
+}
