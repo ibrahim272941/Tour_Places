@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gluten:wght@200&family=Lobster&family=Pacifico&display=swap');
+.navbar{
+    background-color: #171b20;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    color: white;
+    padding: 1.5rem 1.7rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Amatic SC',
+    cursive;
+}
+
+.navbar a:hover{
+    background-color: #ace0f9;
+    color: black;
+}

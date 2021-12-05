@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gluten:wght@200&family=Lobster&family=Pacifico&display=swap');
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards{
+    background-color: black;
+    padding: 1.4rem;
+    border-radius: .6rem;
+    box-shadow: 3px 3px 5px rgba( 0 ,0,0,.7);
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.title{
+    font-family: 'Amatic SC',
+    cursive;
+    font-size: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.title h2{
+    margin: 0;
+}
+.cards img{
+    object-fit: cover;
+    width: 400px;
+    height: 350px;
+    border-radius: 7px;
+    filter: grayscale(0%);
+}
+.cards img:hover{
+    transition: filter .7s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.card-over{
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    transform: translateY(130%);
+    transition: transform .7s ease-in-out;
+    overflow: auto;
+    max-height: 100%;
+   
+}
+
+.cards:hover .card-over{
+    transform: translateY(0%);
+}
