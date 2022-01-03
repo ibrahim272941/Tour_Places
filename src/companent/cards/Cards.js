@@ -3,9 +3,6 @@ import "./Cards.css";
 import { data } from "../../helpers/data";
 
 function Cards() {
-
- 
-  
   return (
     <div className="card-container">
       {data.map((card) => {
@@ -18,12 +15,13 @@ function Cards() {
             <img src={card.image} alt="" />
             <div className="card-over">
               <iframe
-              
                 id="video"
-                width="420"
+                width="410"
                 height="310"
                 src={card.video}
-                
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                frameBorder={"none"}
               ></iframe>
               <p>{card.desc}</p>
             </div>
@@ -35,4 +33,3 @@ function Cards() {
 }
 
 export default Cards;
-

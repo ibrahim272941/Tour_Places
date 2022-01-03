@@ -1,57 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gluten:wght@200&family=Lobster&family=Pacifico&display=swap');
 
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.cards{
-    background-color: black;
+
+.cards {
+    background-color: rgb(1, 27, 27);
     padding: 1.4rem;
     border-radius: .6rem;
-    box-shadow: 3px 3px 5px rgba( 0 ,0,0,.7);
+    box-shadow: 3px 3px 5px rgba(136, 135, 135, 0.7);
     margin: 1rem;
     position: relative;
     overflow: hidden;
 }
-.title{
+
+.title {
     font-family: 'Amatic SC',
-    cursive;
+        cursive;
     font-size: 1rem;
     padding: 1rem;
     color: white;
 }
 
-.title h2{
+.title h2 {
     margin: 0;
 }
-.cards img{
+
+.cards img {
     object-fit: cover;
     width: 400px;
     height: 350px;
     border-radius: 7px;
     filter: grayscale(0%);
 }
-.cards img:hover{
-    transition: filter .7s ease-in-out;
+
+.cards img:hover {
+    transition: filter .4s ease-in-out;
     filter: grayscale(100%);
 }
 
-.card-over{
+.card-over {
+    font-size: .8rem;
     position: absolute;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .6);
     color: white;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 1rem;
-    transform: translateY(130%);
-    transition: transform .7s ease-in-out;
+    transform: translateY(100%);
+    transition: 1s ease-in-out all;
     overflow: auto;
     max-height: 100%;
-   
+
 }
 
-.cards:hover .card-over{
+.cards:hover .card-over {
     transform: translateY(0%);
+}
+
+.card-over iframe {
+    margin-left: .4rem;
 }
